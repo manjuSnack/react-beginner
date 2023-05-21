@@ -1,0 +1,16 @@
+
+ReactJS for Beginner 
+영화 웹 만들기
+
+---
+
+#7.3 ~ 7.10 Movie App
+
+: 간단 Movie App 만들기
+
+# React Router 설치
+> npm install react-router-dom 
+
+# Github publishing ( 깃헙 배포 )
+> npm i gh-pages
+: 배포할 때 쓰이는 패키지
