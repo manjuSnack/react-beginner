@@ -44,8 +44,11 @@
   margin: 5px 0px;
 }
 
-.movie__genres li,
 .movie__year {
+  font-size: 14px;
+}
+
+.movie__genres li {
   margin-right: 10px;
   font-size: 14px;
 }
