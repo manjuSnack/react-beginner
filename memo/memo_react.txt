@@ -14,3 +14,6 @@ ReactJS for Beginner
 # Github publishing ( 깃헙 배포 )
 > npm i gh-pages
 : 배포할 때 쓰이는 패키지
+
+# package.json에 github로 push하기 전 홈페이지 주소 작성
+: "hompage" : "https://유저이름.github.io/repository 이름"
