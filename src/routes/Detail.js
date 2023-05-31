@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import DetailMovies from "../components/DetailMovie";
+import DetailMovie from "../components/DetailMovie";
 import homeStyles from "../routes/Home.module.css";
 
 function Detail() {
@@ -21,10 +21,10 @@ function Detail() {
     <div className={homeStyles.container}>
       {loading ? (
         <div className={homeStyles.loader}>
-          <span>Loading</span>
+          <span>Loading...</span>
         </div>
       ) : (
-        <DetailMovies
+        <DetailMovie
           key={movie.id}
           coverImg={movie.medium_cover_image}
           title={movie.title}

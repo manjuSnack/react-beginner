@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import styles from "./Movie.module.css";
+import styles from "../components/Movie.module.css";
 
 function Movie({ id, coverImg, title, year, summary, genres }) {
   return (
@@ -26,6 +26,7 @@ Movie.propTypes = {
   id: PropTypes.number.isRequired,
   coverImg: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string).isRequired,
 };

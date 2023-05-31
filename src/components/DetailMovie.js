@@ -24,7 +24,7 @@ DetailMovie.propTypes = {
   coverImg: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   year: PropTypes.string.isRequired,
-  rating: PropTypes.string.isRequired,
+  rating: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
